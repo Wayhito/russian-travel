@@ -6,10 +6,10 @@
     width: 1184px;
     left: 48px;
     top: 28px;
-    border: 2px solid red;
     align-items: center;
     justify-content: end;
-    margin-bottom: 56px;
+    margin: 0 0 56px 0;
+    
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
