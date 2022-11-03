@@ -1,14 +1,14 @@
 .header__logo {
     position: absolute;
     left: 0px;
-    width: 176px;
+    max-width: 176px;
     height: 52px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .header__logo {
         position: absolute;
-        width: 176px;
+        max-width: 176px;
         height: 52px;
         left: 48px;
     }
@@ -17,7 +17,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .header__logo {
         position: absolute;
-        width: 176px;
+        max-width: 176px;
         height: 52px;
         left: 24px;
     }
@@ -26,7 +26,7 @@
 @media screen and (min-width: 140px) and (max-width: 767px) {
     .header__logo {
         position: absolute;
-        width: 142px;
+        max-width: 142px;
         height: 42px;
         left: 16px;
     }
