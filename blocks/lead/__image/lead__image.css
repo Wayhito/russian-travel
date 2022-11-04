@@ -3,7 +3,6 @@
     max-height: 615px;
     display: flex;
     object-fit: fill;
-    overflow: hidden;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -22,7 +21,8 @@
 
 @media screen and (min-width: 140px) and (max-width: 767px) {
     .lead__image {
-        max-width: 100%;
         max-height: 200px;
+        /*Добавил "max-width: 100%" т.к. конкретно в мобильной версии без повторного свойства появляется горизонтальный скролл.*/
+        max-width: 100%
     }
 } 

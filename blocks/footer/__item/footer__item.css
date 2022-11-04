@@ -1,6 +1,6 @@
 .footer__item {
     display: grid;
-    grid-template-columns: 50px 57px 94px 86px 106px auto;
+    grid-template-columns: 50px 57px 94px 86px 106px;
     grid-template-rows: 18px;
     column-gap: 18px;
 }
@@ -13,8 +13,7 @@
 
 @media screen and (min-width: 140px) and (max-width: 767px) {
     .footer__item {
-        display: grid;
-        grid-template-rows: 24px 24px 24px 24px 24px 14px;
+        grid-template-rows: 24px 24px 24px 24px 24px;
         grid-template-columns: auto;
         column-gap: 0;
         row-gap: 32px;
