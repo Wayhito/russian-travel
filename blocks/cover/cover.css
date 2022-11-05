@@ -5,21 +5,21 @@
     margin: 0 auto 0 auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .cover {
         max-width: 1024px;
         min-height: 640px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .cover {
         max-width: 768px;
         min-height: 480px;
     }
 }
 
-@media screen and (min-width: 140px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .cover {
         max-width: 320px;
         min-height: 200px;

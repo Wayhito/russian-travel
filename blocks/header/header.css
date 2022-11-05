@@ -18,14 +18,14 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
     .header {
         max-width: 720px;
         grid-template-columns: 625px 30px 30px;
     }
 }
 
-@media screen and (min-width: 140px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .header {
         grid-template-columns: minmax(142px, 208px) 22px 22px;
         grid-template-rows: 42px;
