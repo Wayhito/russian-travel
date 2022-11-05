@@ -1,6 +1,6 @@
 .cover {
     max-width: 1184px;
-    max-height: 740px;
+    min-height: 740px;
     display: flex;
     margin: 0 auto 0 auto;
 }
